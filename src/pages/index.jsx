@@ -11,7 +11,6 @@ import SecuritySection from '@/components/sections/SecuritySection';
 import StepSection from '@/components/sections/StepSection';
 import FaqSection from '@/components/sections/FaqSection';
 import BackToTopSection from '@/components/sections/BackToTopSection';
-import axios from 'axios';
 
 
 export default function index() {

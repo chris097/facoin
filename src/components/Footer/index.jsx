@@ -88,7 +88,7 @@ export default function Footer() {
       <div className="text-center py-6">
         <p className="text-gray">© Copyright 2023 FACOIN. All rights reserved</p>
         <small className='text-gray'>
-          Design by Irvan Moses, updated by Christian Chiemela checkout the repository <a href="https://github.com/dicka88/nefa" className="text-primary" target="_blank" rel='noreferrer'>here</a>
+          Design by Irvan Moses, updated by Christian Chiemela checkout the repository <a href="https://github.com/chris097/facoin" className="text-primary" target="_blank" rel='noreferrer'>here</a>
         </small>
       </div>
     </footer>

@@ -7,10 +7,13 @@ import logo from '@/images/logo.svg';
 import PrimaryButton from '@/components/buttons/PrimaryButton';
 import SecondaryButton from '@/components/buttons/SecondaryButton';
 import Menus from './Menus';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [backgroundwhite, setBackgroundWhite] = useState(false);
+
+  const navigate = useNavigate();
 
   const isMobile = useMediaQuery({ maxWidth: '768px' });
 
@@ -58,7 +61,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="hidden gap-4 md:flex">
-          <SecondaryButton>
+          <SecondaryButton onClick={() => navigate("/login")}>
             Sign In
           </SecondaryButton>
           <PrimaryButton>

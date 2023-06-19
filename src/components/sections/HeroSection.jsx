@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaWindows, FaLinux, FaAppStore, FaAndroid } from 'react-icons/fa';
-
 import globoCrypto from '@/images/illustrations/globe.png';
 import PrimaryButton from '@/components/buttons/PrimaryButton';
 import BlueCircleParticle from '../particles/BlueCircleParticle';
@@ -15,7 +14,7 @@ export default function HeroSection() {
       <span className="absolute bg-purple-400 -left-28 -top-28 rounded-full opacity-[20%] blur-3xl aspect-square h-[350px] -z-10 animate-pulse" />
       <span className="absolute bg-gradient-to-br from-primary to-secondary -right-28 -bottom-28 rounded-full opacity-[15%] blur-3xl  delay-700 duration-1000 aspect-square h-[550px] -z-10" />
 
-      <div className="container px-4 mx-auto grid md:grid-cols-2">
+      <div className="px-4 mx-auto grid md:grid-cols-2">
         <div className='flex items-center'>
           <div className='relative'>
             <StarParticle className="absolute top-0 right-0" />
