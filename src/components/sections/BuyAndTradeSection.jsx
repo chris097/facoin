@@ -16,7 +16,7 @@ export default function BuyAndTradeSection() {
   };
 
   return (
-    <section className="container mx-auto py-32">
+    <section className="mx-auto py-32">
       <div className="grid md:grid-cols-2 gap-10">
         <div className="flex items-center">
           <div className="max-w-xl">

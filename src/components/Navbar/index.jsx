@@ -53,7 +53,7 @@ export default function Navbar() {
     <nav className={classNames('fixed w-full transition-all duration-700 z-10 py-8 ', {
       'bg-[#03001C] shadow-lg !py-3': backgroundwhite
     })}>
-      <div className="px-4 container mx-auto top-0 flex justify-between items-center">
+      <div className="px-4 mx-auto top-0 flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} className="mr-6" alt="Neva" />
           <div className='hidden mx-4 gap-8 xl:flex'>

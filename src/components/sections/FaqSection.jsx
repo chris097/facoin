@@ -36,7 +36,7 @@ const FaqItem = ({ open, title, children }) => {
 
 export default function FaqSection() {
   return (
-    <section className="container mx-auto py-32">
+    <section className="mx-auto py-32">
       <div className="grid md:grid-cols-2">
         <div className="mb-4">
           <Fade up duration={1000}>

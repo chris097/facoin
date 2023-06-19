@@ -8,7 +8,7 @@ export default function TradingToolsSection() {
   return (
     <section className="px-6">
       <div className='rounded-3xl bg-gradient-to-b from-[#060930] to-[#060930] py-20'>
-        <div className="container mx-auto">
+        <div className="mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
             <div className='lg:row-start-1 max-w-lg'>
               <h2 className="font-bold text-white text-4xl mb-6 leading-normal">

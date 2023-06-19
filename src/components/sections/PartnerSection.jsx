@@ -10,7 +10,7 @@ export default function PartnerSection() {
   return (
     <section className="px-6">
       <div className='rounded-3xl bg-gradient-to-b from-[#000] to-[#121010a6] py-20'>
-        <div className="container mx-auto">
+        <div className="mx-auto">
           <div className="text-center mb-4">
             <h2 className="text-3xl font-bold text-white mb-4">Trusted Partners Worldwide</h2>
             <p className='text-slate-300'>We're partners with countless major organisations around the globe</p>

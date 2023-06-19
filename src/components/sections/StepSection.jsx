@@ -10,7 +10,7 @@ export default function StepSection() {
   return (
     <section className="px-6">
       <div className='rounded-3xl bg-gradient-to-b from-[#060930] to-[#060930] py-20'>
-        <div className="container mx-auto text-center">
+        <div className="mx-auto text-center">
           <h2 className="font-bold text-4xl mb-6 text-white leading-normal">
             Get started in just a few minutes
           </h2>

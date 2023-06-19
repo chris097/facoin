@@ -7,7 +7,7 @@ import { Fade } from 'react-reveal';
 
 export default function CreditCardSection() {
   return (
-    <section className="container mx-auto py-32">
+    <section className="mx-auto py-32">
       <div className="grid md:grid-cols-2 gap-6">
         <div className="mb-12 px-4 md:px-4">
           <Fade up>
